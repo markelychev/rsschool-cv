@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  width: 370px;
+  padding: 40px 0;
+  background: #1e2939;
+}
+
+.sidebar img {
+  width: 100%;
+}
+
+.sidebar_item {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.sidebar_link {
+  opacity: 0.5;
+  color: inherit;
+}
+
+.sidebar_lit {
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.list {
+  font-size: 1rem;
+  letter-spacing: 0.42px;
+  margin-left: 20px;
+}
+
+.content {
+  margin: 90px;
+}
+
+.sub-title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.content_title {
+  margin-top: 25px;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+.content_intro {
+  margin-top: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.content_top {
+  margin-bottom: 65px;
+}
+
+.content_link {
+  color: #595959;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.content_item {
+  margin-top: 55px;
+}
+
+.content_path {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.content_list {
+  margin-top: 15px;
+}
+
+.divider {
+  color: #000;
+}
+
+.t-white {
+  color: #fff;
+}
+
+.t-orange {
+  color: #ff6b08;
+}
+
+.t-gray {
+  color: #a8a8a8;
+}
+
+.t-small {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.36px;
+}
+
+.t-bold {
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 12px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .sidebar_item {
+    margin-top: 0;
+  }
+
+  .sidebar img {
+    display: none;
+  }
+
+  .title,
+  .sub-title,
+  .content_title {
+    text-align: center;
+    line-height: 1;
+  }
+
+  .content {
+    margin: 30px;
+  }
+
+  .content_top {
+    margin-bottom: 0;
+  }
+
+  .content_item {
+    margin-top: 20px;
+  }
+  .sidebar_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    flex-direction: column;
+    order: 1;
+  }
+  .sidebar_item {
+    margin-top: 30px;
+  }
+}
