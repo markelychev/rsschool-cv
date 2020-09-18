@@ -19,3 +19,11 @@ I like to get new knowledge and information.
 ## Code examples
 https://github.com/markelychev
 
+## Experience
+I have no experience in commercial development
+
+## Education
+- 2017 and so far: self-study and development at freelance
+  
+## English
+Elementary
