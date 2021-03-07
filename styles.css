@@ -56,6 +56,10 @@ body {
   margin-left: 20px;
 }
 
+.contacts{
+  list-style: none;
+}
+
 .content {
   margin: 90px;
 }
