@@ -14,29 +14,34 @@
     <!-- Main container -->
     <div class="wrapper">
       <aside class="sidebar">
-        <img
-          src="https://avatars0.githubusercontent.com/u/35332072?s=400&v=4"
-          alt="Alexander Markelychev"
-        />
+        <figure>
+          <img
+            src="https://avatars0.githubusercontent.com/u/35332072?s=400&v=4"
+            alt="Alexander Markelychev"
+          />
+        </figure>        
         <!-- Contacts container -->
-        <div class="sidebar_item t-white">
-          <h3 class="title t-white">Contacts</h3>
-          <div>
-            <span class="sidebar_lit">T:</span>
-            <a class="sidebar_link" href="https://t.me/pantifikSPb"
-              >t.me/pantifikSPb</a
-            >
-          </div>
-          <div>
-            <span class="sidebar_lit">E:</span>
-            <a class="sidebar_link" href="mailto:a.markelychev@gmail.com"
-              >a.markelychev@gmail.com</a
-            >
-          </div>
-        </div>
+        <details class="sidebar_item t-white">
+          <summary class="title">
+              <span>Contacts</span>
+          </summary>
+          <ul class='contacts list'>
+            <li class='contacts__item'>
+              <span class="sidebar_lit">T:</span>
+              <a class="sidebar_link" href="https://t.me/pantifikSPb"
+              >t.me/pantifikSPb</a>
+          </li>
+            <li class='contacts__item'>
+              <span class="sidebar_lit">E:</span>
+              <a class="sidebar_link" href="mailto:a.markelychev@gmail.com"
+                >a.markelychev@gmail.com</a>
+            </li>
+          </ul>
+        </details>
+        
         <!-- Tech Skills container -->
-        <div class="sidebar_item">
-          <h3 class="title t-white">Tech Skills</h3>
+        <details class="sidebar_item">
+          <summary class="title t-white">Tech Skills</summary>
           <ul class="list">
             <li class="t-orange"><span class="t-white">HTML5</span></li>
             <li class="t-orange"><span class="t-white">CSS3</span></li>
@@ -45,27 +50,27 @@
             <li class="t-orange"><span class="t-white">JavaScript</span></li>
             <li class="t-orange"><span class="t-white">React.js</span></li>
           </ul>
-        </div>
+        </details>
         <!-- Soft Skills container -->
-        <div class="sidebar_item">
-          <h3 class="title t-white">Soft Skills</h3>
+        <details class="sidebar_item">
+          <summary class="title t-white">Soft Skills</summary>
           <ul class="list">
             <li class="t-orange"><span class="t-white">Teamwork</span></li>
           </ul>
-        </div>
+        </details>
       </aside>
       <!-- About me container -->
-      <div class="content">
+      <main class="content">
         <!-- About me main info -->
-        <div class="content_top">
+        <section class="content_top">
           <h2 class="sub-title">Student RSSchool</h2>
           <h1 class="content_title">Alexander Markelychev</h1>
           <p class="content_intro">
             I like to get new knowledge and information.
           </p>
-        </div>
+        </section>
         <!-- projects container -->
-        <div class="content_item">
+        <section class="content_item">
           <h3 class="title">Code examples</h3>
           <ol class="list t-bold">
             <li>
@@ -74,14 +79,14 @@
               </a>
             </li>
           </ol>
-        </div>
+        </section>
         <!-- Work Experience container -->
-        <div class="content_item">
+        <section class="content_item">
           <h3 class="title">Work Experience</h3>
           <div>I have't experience in commercial development</div>
-        </div>
+        </section>
         <!-- Education container -->
-        <div class="content_item">
+        <section class="content_item">
           <h3 class="title">Education</h3>
           <!-- place of study -->
           <div>
@@ -91,8 +96,18 @@
             <p class="content_path t-bold">Front-End</p>
             <span class="t-small t-gray">2017 - so far </span>
           </div>
-        </div>
-      </div>
+          <div>
+            <h4 class="sub-title t-orange">
+              Languages
+            </h4>
+            <p class="content_path t-bold">English</p>
+            <span class="t-small t-gray">A1</span>
+          </div>
+        </section>
+      </main>      
     </div>
+    <footer class='footer'>
+      <a class='footer__logo' href="https://rs.school/js/"></a>
+    </footer>
   </body>
 </html>

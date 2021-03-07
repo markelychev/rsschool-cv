@@ -56,6 +56,10 @@ body {
   margin-left: 20px;
 }
 
+.contacts{
+  list-style: none;
+}
+
 .content {
   margin: 90px;
 }
@@ -176,6 +180,23 @@ body {
     flex-direction: column;
     align-items: center;
   }
+}
+
+.footer{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__logo{
+  display: block;
+  width: 100px;
+  height: 60px;
+  background-image: url(https://rs.school/images/rs_school_js.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
 }
 
 @media (max-width: 600px) {
